@@ -1,51 +1,63 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@300;600&display=swap');
 * {
-    margin: 0 auto;
+    margin: 0;
+    padding: 0;
     font-family: 'Poppins', sans-serif;
     text-decoration: none;
     list-style-type: none;
     box-sizing: border-box;
 }
 :root{
-    background-color: #FAF7FD;
-    color:#BB99DD;
+    --body-bg-color: #FAF7FD;
+    --purple:#BB99DD;
+}
+body{
+    background-color: var(--body-bg-color);
+    color: var(--purple);
+    font-size: 18px;
 }
 main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 100vh;
     justify-content: center;
+    gap: 5rem;
 }
 figure{
+    padding-top: 80px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 figure > img{
-    width: 200px;
-    height: 200px;
+    width: 20rem;
+    height: 20rem;
     padding: 3px;
     margin: 10px;
     border-radius: 100%;
-    border: 2px solid #BB99DD;
-    
+    border: 2px solid var(--purple);
+}
+figcaption{
+    margin-top: 2rem;
 }
 .sectionLinks{
-    margin: 10%;
     align-items: center;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+
 }
 .links{
     font-size: 18px;
-    border: 2px solid #BB99DD;
-    padding: 5px 100px;
+    border: 3px solid var(--purple);
+    padding:10px;
     border-radius: 0.3rem;
     margin: 10px;
     font-weight: 600;
+    width: 60%;
+    max-width: 30rem;
+    text-align: center;
 }
 a:visited{
     color: #BB99DD;
@@ -54,5 +66,11 @@ a:visited{
     width: 100%;
     padding: 0 15%;
     display: flex;
-    justify-content:space-around;
+    justify-content:space-between;
 }
+.svg img{
+    width: 2.5rem;
+    padding-bottom: 2rem;
+}
+
+    
