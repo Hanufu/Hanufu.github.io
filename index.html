@@ -1,17 +1,26 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
+<link>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#BB99DD"/>
     <meta name="description" content="Página pessoal de redirecionamento, para redes sociais.">
+    <link rel="apple-touch-icon" href="/assets/favicon/apple-touch-icon.png">
+    <link rel="manifest" href="/assets/favicon/site.webmanifest">
+    <link rel="shortcut icon" href="/assets/favicon/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
-    
+    <link rel="stylesheet" href="componets/buttonDarckMode/buttonDarckMode.css">
+    <script src="componets/buttonDarckMode/buttonDarckMode.js"></script>
     <title>Social Links</title>
 </head>
 <body>
     <main>
+        <nav>
+            <div onclick="ligaDesliga()" id="box">
+                <div id="button"></div>
+            </div>
+        </nav>
         <figure>
             <img src="assets/minhaFoto.jpg" alt="Minha Foto" title="Minha foto pessoal">
             <figcaption>@duardo_dm</figcaption>
