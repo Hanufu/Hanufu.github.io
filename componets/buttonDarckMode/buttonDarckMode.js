@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
         box.style.flexDirection = 'row-reverse';
         document.body.style.backgroundColor = '#0f0f0f';
         box.style.backgroundImage = 'url("assets/button/moon.svg")'
-    }else{
+    }else if(localStorage.getItem("estadoLampada") == 'false'){
         box.style.backgroundImage = 'url("assets/button/sun.svg")'
     }
 });
