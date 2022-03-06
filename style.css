@@ -40,25 +40,8 @@ figure > img{
 figcaption{
     margin-top: 2rem;
 }
-.sectionLinks{
-    padding: 0;
-    align-items: center;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-}
-.links{
-    font-size: 18px;
-    border: 3px solid var(--purple);
-    padding:10px;
-    border-radius: 0.3rem;
-    margin: 10px;
-    font-weight: 600;
-    width: 60%;
-    max-width: 30rem;
-    text-align: center;
+.links:hover{
+    opacity: 0.5;
 }
 a:visited{
     color: #BB99DD;
@@ -71,14 +54,29 @@ a:visited{
 }
 .svg img{
     width: 2.5rem;
+    height: 2.5rem;
 }
-footer{
+.svg:hover{
+    opacity: 0.5;
+}
+
+.sectionLinks{
+    padding: 0;
+    align-items: center;
     width: 100%;
-    height: 40px;
-    position: absolute;
-    bottom: 0;
-    background-color: var(--purple);
-    color: var(--body-bg-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.links{
+    font-size: 18px;
+    border: 3px solid var(--purple);
+    padding:10px;
+    border-radius: 0.3rem;
+    margin: 10px;
+    font-weight: 600;
+    width: 60%;
+    max-width: 30rem;
     text-align: center;
-    padding: 10px;
 }
