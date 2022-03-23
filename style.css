@@ -51,6 +51,7 @@ figcaption{
 .links:hover{
     opacity: 0.5;
 }
+a,
 a:visited{
     color: #BB99DD;
 }
